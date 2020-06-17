@@ -3,14 +3,27 @@
 /*----------------- Colours -----------------*/
 
 .socials {
-    background-color: ;
+    background-color: #DFD9E2;
+}
 
+.history {
+    background-color: #FC60A8;
+}
+
+.singles-color {
+    background-color: #7A28CB;
+}
+
+.mainpage {
+    background-color: #F2BAC9;
 }
 
 
-
-
 /*----------------- Headings -----------------*/
+
+h1 {
+    text-align: center;
+}
 
 
 
@@ -35,9 +48,24 @@
 
 
 
-/*----------------- Colours -----------------*/
+/*----------------- Block Divider -----------------*/
+/* Block dividers */
 
+.block-divider {
+    width: 200px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    margin: 20px auto;
+}
 
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
 
 .img-grid {
   display: flex;
@@ -58,6 +86,10 @@
   width: 100%;
 }
 
+.w-80 {
+    width: 80%;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -67,9 +99,46 @@
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
+  button {
+    min-width: 73px;
+}
+.nav-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+
+.reviews {
+    text-align: center;
+}
+
+.review-heading {
+    text-align: center;
+}
+
+.tours {
+    text-align: center;
+}
+
+.tours-heading {
+    text-align: center;
+}
+
+.about-image {
+    float: left;
+    height: 235px;
+    width: 315px;
+    margin: 25px;
+}
+
+.social-head{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    text-align: left;
+    color: #f40b83;
 }
