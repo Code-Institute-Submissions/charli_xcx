@@ -6,7 +6,7 @@
     background-color: #DFD9E2;
 }
 
-.history {
+.content-background {
     background-color: #FC60A8;
 }
 
@@ -18,15 +18,28 @@
     background-color: #F2BAC9;
 }
 
-
-/*----------------- Headings -----------------*/
-
-h1 {
-    text-align: center;
+.embed-responsive {
+    margin-bottom: 8px;
 }
 
+/*----------------- Headings & Paragraphs -----------------*/
 
+.album-slide{
+    margin-top:80px;
+}
 
+.headings{
+    background-color: silver;
+    font-family: "Pixelated MS Sans Serif",Arial;
+    box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0;
+    min-width: 75px;
+    min-height: 23px;
+    padding: 0 12px;
+    text-align: center;
+}
 
 
 /*----------------- Hoover.Css -----------------*/
@@ -34,9 +47,19 @@ h1 {
 
 
 
-/*----------------- Footer -----------------*/
+/*----------------- Discography Page -----------------*/
 
+.tab-content {
+    background-color: #FC60A8;
+}
 
+.list-group-item{
+    background-color: silver;
+    font-family: "Pixelated MS Sans Serif",Arial;
+    box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+    color: #212529;
+    text-align: center;
+}
 
 
 /*----------------- Media Queries -----------------*/
@@ -113,6 +136,9 @@ h1 {
 }
 }
 
+
+/* Review Page */
+
 .reviews {
     text-align: center;
 }
@@ -121,13 +147,36 @@ h1 {
     text-align: center;
 }
 
-.tours {
-    text-align: center;
-}
+
+/* Tours Page */
+
 
 .tours-heading {
     text-align: center;
 }
+
+.card-body {
+    background-color: #DFD9E2; 
+}
+
+.btn {
+    color:#212529;
+    background-color: silver;
+    font-family: "Pixelated MS Sans Serif",Arial;
+    box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0;
+    min-width: 75px;
+    min-height: 23px;
+    padding: 0 12px;
+    text-align: center;
+}
+
+
+
+
+/* Images */
 
 .about-image {
     float: left;
@@ -142,3 +191,47 @@ h1 {
     text-align: left;
     color: #f40b83;
 }
+
+.tour-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  float: left;
+  width: 180px;
+  height: 250px;
+  background-color: #DFD9E2;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.embed-responsive {
+    margin-bottom: 8px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
